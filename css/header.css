@@ -8,6 +8,10 @@
 	background-color: var(--red-orange);
 }
 
+.navbar-brand {
+	font-family: Work Sans;
+}
+
 .navbar-brand, .nav-link, .navbar-toggler-icon {
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -15,13 +19,22 @@
 	font-weight: bold;
 	color: #FFF;
 }
-
 .navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover {
 	color: yellow;
 }
 
-.navbar-brand {
-	font-family: Work Sans;
+.dropdown-menu {
+	background-color: var(--red-orange);
+}
+.dropdown-item {
+	color: white;
+}
+.dropdown-menu:hover {
+	background-color: var(--red-orange);
+}
+.dropdown-item:hover {
+	background-color: var(--red-orange);
+	color: yellow;
 }
 
 
