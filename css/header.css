@@ -20,6 +20,10 @@
 	color: yellow;
 }
 
+.navbar-brand {
+	font-family: Work Sans;
+}
+
 
 /* TITLE */
 
@@ -46,6 +50,7 @@
 
 .header-title {
 	font-size: 5em;
+	font-family: Work Sans;
 }
 
 .header-subtitle {
