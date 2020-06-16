@@ -69,3 +69,15 @@
 .header-subtitle {
 	font-size: 3em;
 }
+
+@media (max-width: 600px) {
+	.title-section {
+		background-image: url("../images/home-title-image3.jpg");
+		background-position: right center;
+		text-align: center;
+	}
+
+	.header-title, .header-subtitle {
+		width: 100%;
+	}
+}
