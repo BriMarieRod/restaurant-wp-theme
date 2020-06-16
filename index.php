@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<head>
-	<?php wp_head(); ?>
-</head>
-<body>
-	<header class="bg-light">
-		<div class="container">
-			<nav class="navbar navbar-expand-lg">
-			 	<a class="navbar-brand" href="#">Navbar</a>
-			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			    	<span class="navbar-toggler-icon"></span>
-			  	</button>
-			  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			    	<ul class="navbar-nav">
-			      		<li class="nav-item active">
-			        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					    </li>
-					    <li class="nav-item dropdown">
-					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
-			        		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          			<a class="dropdown-item" href="#">Breakfast</a>
-			          			<a class="dropdown-item" href="#">Lunch</a>
-			          			<a class="dropdown-item" href="#">Dinner</a>
-			          			<a class="dropdown-item" href="#">Beverages</a>
-			        		</div>
-			      		</li>
-			      		<li class="nav-item active">
-			        		<a class="nav-link" href="#">Contact</a>
-					    </li>
-			    	</ul>
-			  	</div>
-			</nav>
-			<div class="title-section">
-				<h1 class="header-title">Restaurant Name</h1>
-				<p class="header-subtitle">Subtitle</p>
-			</div>
-		</div>
-	</header>
+<?php get_header(); ?>
 	<main role="main">
 		<section class="container main-section mission-section">
 			<header class="section-header">

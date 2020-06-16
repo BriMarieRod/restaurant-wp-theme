@@ -1,0 +1,53 @@
+:root {
+	--red-orange: #FF4000;
+}
+
+/* NAVBAR */
+
+.navbar {
+	background-color: var(--red-orange);
+}
+
+.navbar-brand, .nav-link, .navbar-toggler-icon {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	font-size: x-large;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.navbar-brand:hover, .nav-link:hover, .navbar-toggler-icon:hover {
+	color: yellow;
+}
+
+
+/* TITLE */
+
+.title-section {
+	height: 30em;
+	background-image: url("../images/home-title-image2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: yellow;
+}
+
+.title-section-content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.header-title, .header-subtitle {
+	margin-left: 0;
+	width: 50%;
+	color: var(--red-orange);
+	font-weight: bold;
+}
+
+.header-title {
+	font-size: 5em;
+}
+
+.header-subtitle {
+	font-size: 3em;
+}
