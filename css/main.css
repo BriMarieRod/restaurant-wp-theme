@@ -4,7 +4,7 @@
 }
 
 .section-content {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 /* ABOUT */
@@ -14,11 +14,11 @@
 	background-color: #FF7800;
 	color: white;
 	clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 98%,
-    0 100%
-  );
+	    0 0,
+	    100% 0,
+	    100% 98%,
+	    0 100%
+  	);
 }
 
 .about-section-container {
@@ -27,3 +27,23 @@
 }
 
 /* MENU */
+
+.menu-section {
+	margin-top: -1em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background-color: gray;
+}
+
+.menu-section .section-title {
+	padding-bottom: .5em;
+	color: white;
+}
+
+.menu-section-card {
+	height: 100%;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: white;
+	text-align: center;
+}

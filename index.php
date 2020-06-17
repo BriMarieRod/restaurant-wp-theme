@@ -8,26 +8,38 @@
 				<p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</section>
-		<section class="container main-section menu-section">
-			<header class="section-header">
-				<h2 class="section-title">See Our Menu</h2>
-			</header>
-			<article class="menu-section-card">
-				<h3 class="menu-section-card-title">Breakfast</h3>
-				<p class="menu-section-card-content">Browse this page</p>
-			</article>
-			<article class="menu-section-card">
-				<h3 class="menu-section-card-title">Lunch</h3>
-				<p class="menu-section-card-content">Browse this page</p>
-			</article>
-			<article class="menu-section-card">
-				<h3 class="menu-section-card-title">Dinner</h3>
-				<p class="menu-section-card-content">Browse this page</p>
-			</article>
-			<article class="menu-section-card">
-				<h3 class="menu-section-card-title">Beverages</h3>
-				<p class="menu-section-card-content">Browse this page</p>
-			</article>
+		<section class="main-section menu-section">
+			<div class="container">
+				<header class="section-header">
+					<h2 class="section-title">See Our Menu</h2>
+				</header>
+				<div class="row">
+					<div class="col">
+						<article class="menu-section-card">
+							<h3 class="menu-section-card-title">Breakfast</h3>
+							<p class="menu-section-card-content">Browse this page.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</article>
+					</div>
+					<div class="col">
+						<article class="menu-section-card">
+							<h3 class="menu-section-card-title">Lunch</h3>
+							<p class="menu-section-card-content">Browse this page.<br />Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</article>
+					</div>
+					<div class="col">
+						<article class="menu-section-card">
+							<h3 class="menu-section-card-title">Dinner</h3>
+							<p class="menu-section-card-content">Browse this page.<br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</article>
+					</div>
+					<div class="col">
+						<article class="menu-section-card">
+							<h3 class="menu-section-card-title">Beverages</h3>
+							<p class="menu-section-card-content">Browse this page.<br />Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</article>
+					</div>
+				</div>
+			</div>
 		</section>
 	</main>
 	<footer class="page-footer bg-light">
