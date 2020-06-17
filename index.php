@@ -1,10 +1,12 @@
 <?php get_header(); ?>
 	<main role="main">
-		<section class="container main-section mission-section">
-			<header class="section-header">
-				<h2 class="section-title">About Us</h2>
-			</header>
-			<p class="section-content">Insert some info here.</p>
+		<section class="main-section about-section">
+			<div class="container about-section-container">
+				<header class="section-header">
+					<h2 class="section-title">About Us</h2>
+				</header>
+				<p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
 		</section>
 		<section class="container main-section menu-section">
 			<header class="section-header">

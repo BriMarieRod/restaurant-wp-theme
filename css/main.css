@@ -1,0 +1,29 @@
+.section-title {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.section-content {
+	font-size: 1.75em;
+}
+
+/* ABOUT */
+
+.about-section {
+	margin-top: -5em;
+	background-color: #FF7800;
+	color: white;
+	clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 98%,
+    0 100%
+  );
+}
+
+.about-section-container {
+	padding-top: 5em;
+	padding-bottom: 3em;
+}
+
+/* MENU */
