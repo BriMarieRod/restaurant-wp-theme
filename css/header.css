@@ -53,7 +53,7 @@
 	    100% 0,
 	    100% 100%,
 	    0 25em
-  );
+  	);
 }
 
 .title-section-content {
@@ -65,7 +65,7 @@
 .header-title, .header-subtitle {
 	margin-left: 0;
 	width: 50%;
-	color: var(--red-orange);
+	color: yellow;
 	font-weight: bold;
 }
 
